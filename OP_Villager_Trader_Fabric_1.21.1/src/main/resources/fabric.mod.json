@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "op_villager_trader",
+  "version": "${version}",
+  "name": "OP Villager Trader",
+  "description": "Adds a Dirt-priced villager trader for registered non-weapon items.",
+  "authors": ["OpenAI"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.opvillager.OPVillagerTrader"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
